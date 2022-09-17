@@ -1,3 +1,4 @@
+/*Brute force- technique (checking each range number one by one by changing the value of n each time we want to know whether the number entered is prime or not) */
 public class javaclass {
     public static void main(String[] args){
         //System.out.println("Enter a number:");
