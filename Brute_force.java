@@ -1,10 +1,11 @@
 /*Brute force- technique (checking each range number one by one by changing the value of n each time we want to know whether the number entered is prime or not) */
+import java.util.*;
 public class javaclass {
     public static void main(String[] args){
-        //System.out.println("Enter a number:");
-        //Scanner sc = new Scanner(System.in);
-        // n=sc.nextInt();
-        int n=7;
+        System.out.println("Enter a number:");
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        //int n=7;
         int temp=0;
         for(int i=2;i<=n-1;i++){
             if(n%i==0){
